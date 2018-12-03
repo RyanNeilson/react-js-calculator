@@ -1,0 +1,64 @@
+@import 'https://fonts.googleapis.com/css?family=Cutive+Mono';
+@font-face {
+  font-family: "Digital";
+  src: url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot");
+  src: url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff") format("woff"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.svg#Digital-7") format("svg");
+}
+
+#app {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background: #a5c9bc;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+
+.calculator {
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px black;
+  padding: 5px; 
+  background: black;
+  width: 320px; 
+  position: relative;
+}
+
+
+.outputScreen {
+  font-size: 32px;
+  font-family: "Digital";
+  color: white;
+  text-align: right;
+  line-height: 35px;
+  padding: 10px;
+}
+
+button {
+  position: relative;
+  height: 65px;
+  width: 80px;
+  color: white;
+  outline: 1px solid black;
+  border-radius: 5px;
+  border: 2px solid black;
+  background: #17407a;
+  font-family: Cutive Mono, monospace;
+  font-size: 22px;
+  cursor: default;
+}
+
+.jumbo {
+  width: 160px;
+}
+
+
+
